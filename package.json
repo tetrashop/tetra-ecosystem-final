@@ -2,7 +2,6 @@
   "name": "tetra-ecosystem-ultimate",
   "version": "5.0.0",
   "description": "Tetra Ecosystem Ultimate - Complete AI Platform",
-  "type": "commonjs",
   "main": "src/server/main.js",
   "scripts": {
     "start": "node src/server/main.js",
@@ -11,11 +10,18 @@
     "setup": "./launch-tetra.sh"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "helmet": "^7.1.0",
-    "compression": "^1.7.4",
-    "express-rate-limit": "^7.1.5"
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.9.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.1",
+    "express-rate-limit": "^7.5.1",
+    "express-validator": "^7.3.2",
+    "helmet": "^7.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "winston": "^3.19.0"
   },
   "engines": {
     "node": ">=16"
@@ -29,5 +35,19 @@
     "modules"
   ],
   "author": "Tetra Ecosystem Team",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetrashop/tetra-ecosystem-fixed.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tetrashop/tetra-ecosystem-fixed/issues"
+  },
+  "homepage": "https://github.com/tetrashop/tetra-ecosystem-fixed#readme",
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
 }
