@@ -1,3 +1,12 @@
 [SECURITY] [2026-05-11T18:22:25.880Z] Super Admin initialized: TetraMaster
 [SECURITY] [2026-05-11T18:22:25.936Z] System started successfully on port 3000
 [SECURITY] [2026-05-11T18:24:28.056Z] System shutdown initiated
+[SECURITY] [2026-05-11T18:33:00.367Z] Super Admin initialized: TetraMaster
+[SECURITY] [2026-05-11T18:33:00.431Z] System started successfully on port 3000
+[SECURITY] [2026-05-11T18:33:14.276Z] POST /api/auth/register - 127.0.0.1 - User: Anonymous
+[SECURITY] [2026-05-11T18:33:14.327Z] POST /api/auth/login - 127.0.0.1 - User: Anonymous
+[SECURITY] [2026-05-11T18:33:14.328Z] Failed login attempt - User not found: testuser
+[SECURITY] [2026-05-11T18:33:14.379Z] GET /api/wallet - 127.0.0.1 - User: Anonymous
+[SECURITY] [2026-05-11T18:33:14.580Z] Invalid token: jwt malformed
+[SECURITY] [2026-05-11T18:33:14.582Z] Token verification failed: jwt malformed
+[SECURITY] [2026-05-11T18:33:14.615Z] GET / - 127.0.0.1 - User: Anonymous
